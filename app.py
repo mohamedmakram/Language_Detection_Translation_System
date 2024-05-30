@@ -36,7 +36,8 @@ state_dict = torch.load('lang_detect.pth', map_location=torch.device('cpu'))
 model.load_state_dict(state_dict)
 
 # translation model
-model_translate = AutoModelForSeq2SeqLM.from_pretrained('D:\Projects\Machine Learning Technical Assessment', safetensors = True)
+# \Machine Learning Technical Assessment\  -- is the directory where the model is stored
+model_translate = AutoModelForSeq2SeqLM.from_pretrained('\model path', use_safetensors=True)
 
 
 
