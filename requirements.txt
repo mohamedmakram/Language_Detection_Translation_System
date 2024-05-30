@@ -1,0 +1,14 @@
+flask
+matplotlib
+scikit-learn
+numpy
+traceback
+pandas
+joblib
+bleu
+transformers[torch]
+evaluate
+transformers
+safetensors
+datasets
+torch
